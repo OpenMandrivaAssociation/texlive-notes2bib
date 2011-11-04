@@ -1,3 +1,9 @@
+# revision 23899
+# category Package
+# catalog-ctan /macros/latex/contrib/notes2bib
+# catalog-date 2011-06-07 17:24:31 +0200
+# catalog-license lppl
+# catalog-version 2.0f
 Name:		texlive-notes2bib
 Version:	2.0f
 Release:	1
@@ -49,6 +55,7 @@ systems may need to use an elatex command or equivalent).
 %doc %{_texmfdistdir}/doc/latex/notes2bib/notes2bib.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/notes2bib/notes2bib.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ systems may need to use an elatex command or equivalent).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
