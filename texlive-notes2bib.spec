@@ -1,12 +1,12 @@
-# revision 23899
+# revision 27196
 # category Package
 # catalog-ctan /macros/latex/contrib/notes2bib
-# catalog-date 2011-06-07 17:24:31 +0200
+# catalog-date 2012-07-17 10:47:29 +0200
 # catalog-license lppl
-# catalog-version 2.0f
+# catalog-version 2.0i
 Name:		texlive-notes2bib
-Version:	2.0f
-Release:	2
+Version:	2.0i
+Release:	1
 Summary:	Integrating notes into the bibliography
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes2bib
@@ -20,16 +20,17 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The notes2bib package defines a new type of note, bibnote,
-which will always be added to the bibliography. The package
-allows footnotes and endnotes to be moved into the bibliography
-in the same way. The package can be used with natbib and
-biblatex as well as plain LaTeX citations. Both sorted and
-unsorted bibliography styles are supported. The package uses
-the LaTeX 3 macros and the associated xpackages bundle. It also
-makes use of the e-TeX extensions (any post-2005 LaTeX
-distribution will provide these by default, but users of older
-systems may need to use an elatex command or equivalent).
+The package defines a new type of note, bibnote, which will
+always be added to the bibliography. The package allows
+footnotes and endnotes to be moved into the bibliography in the
+same way. The package can be used with natbib and biblatex as
+well as plain LaTeX citations. Both sorted and unsorted
+bibliography styles are supported. The package uses the LaTeX 3
+macros and the associated xpackages bundle. It also makes use
+of the e-TeX extensions (any post-2005 LaTeX distribution will
+provide these by default, but users of older systems may need
+to use an elatex command or equivalent). The package relies on
+LaTeX 3 support from the l3kernel and l3packages bundles.
 
 %post
     %{_sbindir}/texlive.post
