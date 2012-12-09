@@ -57,3 +57,21 @@ LaTeX 3 support from the l3kernel and l3packages bundles.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0i-1
++ Revision: 812688
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.0f-2
++ Revision: 754440
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.0f-1
++ Revision: 719134
+- texlive-notes2bib
+- texlive-notes2bib
+- texlive-notes2bib
+- texlive-notes2bib
+
