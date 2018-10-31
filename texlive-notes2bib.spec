@@ -6,7 +6,7 @@
 # catalog-version 2.0k
 Name:		texlive-notes2bib
 Version:	2.0k
-Release:	9
+Release:	10
 Summary:	Integrating notes into the bibliography
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes2bib
