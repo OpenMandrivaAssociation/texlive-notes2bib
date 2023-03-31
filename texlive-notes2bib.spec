@@ -1,6 +1,6 @@
 Name:		texlive-notes2bib
 Version:	52231
-Release:	1
+Release:	2
 Summary:	Integrating notes into the bibliography
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes2bib
