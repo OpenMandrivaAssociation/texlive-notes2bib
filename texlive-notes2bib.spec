@@ -3,7 +3,7 @@ Version:	52231
 Release:	2
 Summary:	Integrating notes into the bibliography
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes2bib
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/notes2bib
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/notes2bib.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/notes2bib.doc.r%{version}.tar.xz
